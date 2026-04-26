@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nanda Juian - Resume</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+        body { background-color: #f4f4f4; padding: 20px; }
+
+        /* Layout Utama */
+        .resume-container {
+            display: flex;
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        /* Sidebar Kiri (Warna Krem) */
+        .sidebar {
+            width: 35%;
+            background-color: #dcd7cf;
+            padding: 30px;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 0 auto 20px auto;
+            display: block;
+            object-fit: cover;
+            border: 3px solid #fff;
+        }
+        .sidebar-section { margin-bottom: 25px; }
+        .sidebar h3 { 
+            background: #444; 
+            color: white; 
+            padding: 5px 10px; 
+            margin-bottom: 10px; 
+            font-size: 14px; 
+            text-transform: uppercase;
+        }
+        .sidebar p { font-size: 13px; margin-bottom: 5px; }
+
+        /* Area Utama Kanan */
+        .main-content {
+            width: 65%;
+            padding: 30px;
+        }
+        .header-box {
+            background: #444;
+            color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .header-box h1 { font-size: 28px; letter-spacing: 2px; }
+        .header-box p { font-size: 16px; text-transform: uppercase; margin-top: 5px; }
+
+        .section-title {
+            background: #444;
+            color: white;
+            padding: 5px 10px;
+            margin: 20px 0 10px 0;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .content-body { font-size: 14px; line-height: 1.6; color: #333; }
+        .content-body ul { margin-left: 20px; }
+
+        /* Responsif untuk HP */
+        @media (max-width: 768px) {
+            .resume-container { flex-direction: column; }
+            .sidebar, .main-content { width: 100%; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="resume-container">
+    <div class="sidebar">
+        <img src="poto.jpeg" alt="Nanda Juian" class="profile-img">
+        
+        <p><strong>City, date of birth:</strong> [Isi Kota, Tanggal Lahir]</p>
+        <p><strong>Religion:</strong> [Isi Agama]</p>
+        <p><strong>Gender:</strong> Male</p>
+        <p><strong>Weight:</strong> 70Kg</p>
+        <p><strong>Height:</strong> 175Cm</p>
+        <p><strong>Address:</strong> [Isi Alamat Anda]</p>
+        
+        <h3>Contact</h3>
+        <p>📞 08123456789</p>
+        <p>📧 nanda.juian@email.com</p>
+        
+        <h3>Hobby</h3>
+        <p>Football, Drawing, Photography, Hiking.</p>
+    </div>
+
+    <div class="main-content">
+        <div class="header-box">
+            <h1>NANDA JUIAN</h1>
+            <p>OPERATIONS PROFESSIONAL</p>
+        </div>
+
+        <div class="section-title">Profile</div>
+        <div class="content-body">
+            Profesional di bidang operasional dengan pengalaman lebih dari 4 tahun. Pernah dipercaya sebagai Shift Leader di industri F&B yang mengasah jiwa kepemimpinan dan manajemen tim. Memiliki ketelitian dalam manajemen stok melalui pengalaman di PT Tridya Agung Lestari (Gudang), dan saat ini aktif berkontribusi di PT SUM (Wings Group).
+        </div>
+
+        <div class="section-title">Education</div>
+        <div class="content-body">
+            <p><strong>AMIK CBI</strong> | D3 Manajemen Informatika</p>
+            <p><strong>SMKN 1 Sukaraja</strong> | Teknik Komputer & Jaringan</p>
+        </div>
+
+        <div class="section-title">Work Experience</div>
+        <div class="content-body">
+            <p><strong>PT SUM (WINGS GROUP)</strong> | Staff Gudang (2024 – Sekarang)</p>
+            <ul>
+                <li>Mengelola arus barang (inbound/outbound).</li>
+                <li>Menjaga standar keamanan & kerapian gudang (5S).</li>
+            </ul>
+            <br>
+            <p><strong>PT TRIDYA AGUNG LESTARI</strong> | Staff Gudang (2024)</p>
+            <ul>
+                <li>Penerimaan, pengeluaran, dan pengecekan kualitas barang.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
