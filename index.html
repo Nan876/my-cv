@@ -131,3 +131,32 @@
 
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nanda Juian - Professional Profile</title>
+    <style>
+        /* ... CSS sebelumnya ... */
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid white;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            margin-bottom: 20px;
+            /* Tambahan agar jika gagal muat, terlihat ada kotak */
+            background-color: #bdc3c7; 
+        }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <img src="poto.jpeg" alt="Nanda Juian" class="profile-photo" onerror="this.onerror=null; this.src='https://via.placeholder.com/150';">
+        <h1>Nanda Juian</h1>
+    </header>
+    </body>
+</html>
